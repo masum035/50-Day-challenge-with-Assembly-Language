@@ -5,16 +5,19 @@
 .stack 100h		;stack size is declared
 
 .data
-;For our variable declaration segment and all other data segment
+;For declaring initialized data or constants in this segment
 
 .code
-;For code segment
+
 main proc
 	mov ax,@data	;all the addressess of data segment are copied in accumalator register 
-	mov ds,ax     ;in near future we mauy use ax register so we have to assign all our address into data segment register (dx) 
+	mov ds,ax    ;in near future we may use ax register so we have to assign all our addresses into data segment register (ds) 
 
 	;Write your code here
 
+	mov ah,4ch
+	int 21h		;terminate with return code
 main endp
 end main
+
 
