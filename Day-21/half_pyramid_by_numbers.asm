@@ -1,5 +1,5 @@
 ; Day - 21      Date- 01 May,2021
-; problem - print Inverted right triangle of numbers where input(0~9)
+; problem - print half pyramid using numbers where input(0~9)
 
 .model small	
 .stack 100h		
