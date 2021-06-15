@@ -1,4 +1,4 @@
-; Day-23            Date-15 May,2021
+; Day-23            Date-14 May,2021
 .model small	
 .stack 100h		
 include 'emu8086.inc'
