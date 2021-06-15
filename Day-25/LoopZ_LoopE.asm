@@ -1,4 +1,4 @@
-;Day     Date-16 May,2021
+; Day-25     Date-16 May,2021
 
 ;LOOPZ and LOOPE is similar
 ;loopz   Here the extra condition is zero flag must be set to continue loop
